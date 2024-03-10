@@ -33,6 +33,7 @@
     
     </header>
     <div class="container-lg px-5">
+      <h5 id="displayMsg" class="text-center">Appointment added to <span class="text-danger">localStorage</span></h5>
       <!-- Use class for "past", "present", and "future" to apply styles to the
         time-block divs accordingly. The javascript will need to do this by
         adding/removing these classes on each div by comparing the hour in the
@@ -45,7 +46,7 @@
 
       <!-- Example of a past time block. The "past" class adds a gray background color. -->
       <!-- for 9am-->
-      <div id="hour-9" class="row time-block past">
+      <div id="hour-9" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">9:00AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -55,7 +56,7 @@
 
       <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <!-- for 10am-->
-      <div id="hour-10" class="row time-block present">
+      <div id="hour-10" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">10:00AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -65,7 +66,7 @@
 
       <!-- Example of a future time block. The "future" class adds a green background color. -->
       <!-- for 11am-->
-      <div id="hour-11" class="row time-block future">
+      <div id="hour-11" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">11:00AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
