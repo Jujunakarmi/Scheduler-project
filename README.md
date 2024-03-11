@@ -7,8 +7,8 @@ This application is a simple calendar that allows a user to save events for each
 You can schedule your events : [Click here to Schedule](https://jujunakarmi.github.io/Scheduler-project/)
 
 Here are some of the screenshots:
-![First page of screenshot](./images/Screenshot-1.png)
-![Second page of screenshot](./images/Screenshot-2.png)
+![First page of screenshot](./assets/images/Screenshot-1.png)
+![Second page of screenshot](./assets/images/Screenshot-2.png)
 
 ## Usage
 
